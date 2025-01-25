@@ -9,12 +9,16 @@ This repository contains a step-by-step guide and resources for setting up Singl
 
 ## Screenshots
 ### Azure Portal Overview
-![Azure Portal Overview](screenshots/screenshot1-overview.png)
+<img src="https://github.com/harshitgarg-cs/Azure-Active-Directory/blob/main/images/1.png" alt="Azure Portal Overview">
 
 ### Create SAML Toolkit
-![Create SAML Toolkit](screenshots/screenshot2-create-saml-toolkit.png)
+<img src="https://github.com/harshitgarg-cs/Azure-Active-Directory/blob/main/images/2.jpeg" alt="SAML Toolkit">
 
-...
+### Basic SAML Configuration
+<img src="https://github.com/harshitgarg-cs/Azure-Active-Directory/blob/main/images/3.jpeg" alt="SAML Config">
+
+### SSO Testing
+<img src="https://github.com/harshitgarg-cs/Azure-Active-Directory/blob/main/images/4.jpeg" alt="SSO Test Successful">
 
 ## Configuration Steps
 1. **Create the SAML Toolkit Application**
