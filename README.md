@@ -1,8 +1,3 @@
-# Azure-Active-Directory
-
-## Task
-You are the IT administrator for Sam’s Scoops. You know that SSO is an effective way of allowing employees to use company applications without having to repeatedly sign on. To familiarize yourself with SSO, you are first tasked with configuring the company’s Azure Active Directory with a sample application provided by Microsoft called SAML Toolkit. Then, configure this application so that it can be accessed without having to re-enter your user details. Document every step with a screenshot and a brief description of what’s involved in every step of the process. 
-
 # Azure AD SAML Single Sign-On Setup
 
 This repository contains a step-by-step guide and resources for setting up Single Sign-On (SSO) using Azure Active Directory and the SAML Toolkit. The project was created as part of the [Microsoft Cybersecurity Professional Certificate](https://learn.microsoft.com/).
@@ -44,6 +39,3 @@ This repository contains a step-by-step guide and resources for setting up Singl
 ## Tools Used
 - Azure Active Directory
 - SAML Toolkit
-
-## License
-This project is licensed under the MIT License.
