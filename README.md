@@ -8,3 +8,4 @@ You are the IT administrator for Sam’s Scoops. You know that SSO is an effecti
 1. Login URL: https://login.microsoftonline.com/dc6d90b2-7072-4c18-8add-4874c747a3d3/saml2
 2. Microsoft Entra Identifier: https://sts.windows.net/dc6d90b2-7072-4c18-8add-4874c747a3d3/
 3. Logout URL: https://login.microsoftonline.com/dc6d90b2-7072-4c18-8add-4874c747a3d3/saml2
+4. Azure AD Identifier: https://sts.windows.net/dc6d90b2-7072-4c18-8add-4874c747a3d3/
