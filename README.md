@@ -1,6 +1,6 @@
 # Azure AD SAML Single Sign-On Setup
 
-This repository contains a step-by-step guide and resources for setting up Single Sign-On (SSO) using Azure Active Directory and the SAML Toolkit. The project was created as part of the [Microsoft Cybersecurity Professional Certificate](https://learn.microsoft.com/).
+This repository contains a step-by-step guide and resources for setting up Single Sign-On (SSO) using Azure Active Directory and the SAML Toolkit. The project was created as part of the [Microsoft Cybersecurity Professional Certificate]([https://learn.microsoft.com/](https://www.coursera.org/professional-certificates/microsoft-cybersecurity-analyst?)).
 
 ## Features
 - Configures SAML-based Single Sign-On (SSO) for a sample application.
