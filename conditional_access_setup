@@ -20,7 +20,7 @@ Test user account for validation
 Go to the Azure Portal.
 Sign in with your administrator credentials.
 Search for Conditional Access in the search bar.
-<img src="https://github.com/harshitgarg-cs/Azure-Active-Directory/blob/main/images/conditional_access_01.png">
+<img src="https://github.com/harshitgarg-cs/Azure-Active-Directory/blob/main/images/conditional_access_01.png" alt="Conditional Access Tab">
 
 **Step 2:** Create a New Conditional Access Policy
 In Azure AD Conditional Access, click + New policy.
