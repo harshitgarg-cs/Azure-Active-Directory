@@ -17,44 +17,40 @@ Test user account for validation
 
 ### 🛠 Step-by-Step Guide
 **Step 1:** Sign in to Azure
-Go to the Azure Portal.
-Sign in with your administrator credentials.
-Search for Conditional Access in the search bar.
+Go to the Azure Portal. Sign in with your administrator credentials. Search for Conditional Access in the search bar.
+
 <img src="https://github.com/harshitgarg-cs/Azure-Active-Directory/blob/main/images/conditional_access_01.png" alt="Conditional Access Tab">
 
+
 **Step 2:** Create a New Conditional Access Policy
-In Azure AD Conditional Access, click + New policy.
-Enter a Name (e.g., "Require MFA for Non-Corporate Devices").
-📌 Screenshot:
+In Azure AD Conditional Access, click + New policy. Enter a Name (e.g., "Require MFA for Non-Corporate Devices").
+
+<img src="https://github.com/harshitgarg-cs/Azure-Active-Directory/blob/main/images/conditional_access_02.png" alt="Creating Policy">
+
 
 **Step 3:** Define Assignments
-Under Assignments, select Users or workload identities.
-Choose Include → Select Users and Groups.
-Add users or groups that this policy should apply to.
-📌 Screenshot:
+Under Assignments, select Users or workload identities. Choose Include → Select Users and Groups. Add users or groups that this policy should apply to.
 
 **Step 4:** Configure Conditions
-Go to Conditions → Device platforms.
-Select Include → Any device.
-Under Locations, select Exclude → Trusted locations (to apply only to non-corporate devices).
-📌 Screenshot:
+Go to Conditions → Device platforms. Select Include → Any device. Under Locations, select Exclude → Trusted locations (to apply only to non-corporate devices).
+
+<img src="https://github.com/harshitgarg-cs/Azure-Active-Directory/blob/main/images/conditional_access_03.png" alt="Configure">
+
 
 **Step 5:** Configure Access Controls
-Under Access controls, go to Grant.
-Select Require multi-factor authentication.
-Click Select.
-📌 Screenshot:
+Under Access controls, go to Grant. Select Require multi-factor authentication. Click Select.
+
+<img src="https://github.com/harshitgarg-cs/Azure-Active-Directory/blob/main/images/conditional_access_04.png">
+
 
 **Step 6:** Enable Policy
-Scroll down to Enable Policy.
-Select Report-only for testing or On to enforce immediately.
-Click Create.
-📌 Screenshot:
+Scroll down to Enable Policy. Select Report-only for testing or On to enforce immediately. Click Create.
+
+<img src="https://github.com/harshitgarg-cs/Azure-Active-Directory/blob/main/images/conditional_access_05.png">
+
 
 **Step 7:** Create and Test the Policy
-Sign in to an Azure AD-protected resource (e.g., Microsoft 365) using a non-corporate device.
-If configured correctly, you should be prompted for MFA.
-📌 Screenshot:
+Sign in to an Azure AD-protected resource (e.g., Microsoft 365) using a non-corporate device. If configured correctly, you should be prompted for MFA.
 
 ## 🎯 Results
 After following these steps, you have successfully:
